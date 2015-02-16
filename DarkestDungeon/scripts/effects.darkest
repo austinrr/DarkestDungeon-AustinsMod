@@ -184,7 +184,7 @@ effect: .name "Adrenaline 3" .curio_result_type "positive" .cureself 1 .chance 1
 effect: .name "Adrenaline 4" .curio_result_type "positive" .cureself 1 .chance 100% .buffself 1 .attack_rating_add 8% .damage_low_multiply 26% .damage_high_multiply 26%	.on_hit true .on_miss true .queue true
 effect: .name "Adrenaline 5" .curio_result_type "positive" .cureself 1 .chance 100% .buffself 1 .attack_rating_add 9% .damage_low_multiply 28% .damage_high_multiply 28%	.on_hit true .on_miss true .queue true
 
-effect: .name "Hellion Exhaust" .curio_result_type "negative" .chance 100% .buffself 1 .damage_low_multiply -20% .damage_high_multiply -20% .defense_rating_add -15% .apply_once true .on_hit true .on_miss true .queue true
+effect: .name "Hellion Exhaust" .curio_result_type "negative" .chance 40% .buffself 1 .damage_low_multiply -20% .damage_high_multiply -20% .defense_rating_add -15% .apply_once true .on_hit true .on_miss false .queue true
 
 
 effect: .name "Strength 1" .curio_result_type "positive" .buffself 1 .attack_rating_add -10% .damage_low_multiply 40% .damage_high_multiply 40% .crit_chance_add 5%	.on_hit true .on_miss true .queue true
