@@ -4,7 +4,8 @@
 # But not these files...
 !*.info
 !*.info.darkest
-# etc...
+!*/inventory/*
+!*effects.darkest
 
 # ...even if they are in subdirectories
 !*/
