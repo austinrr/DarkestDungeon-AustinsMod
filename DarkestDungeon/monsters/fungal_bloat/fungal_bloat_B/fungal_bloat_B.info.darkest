@@ -1,0 +1,10 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "eldritch"
+stats: .hp 25 .def 10% .prot 0 .spd 2 .stun_resist 45% .poison_resist 95% .bleed_resist 45% .debuff_resist 45% .move_resist 45%
+skill: .id "groping_swipe" .type "melee" .atk 80% .dmg 5 9 .crit 15%  .launch 21 .target 12
+skill: .id "fierce_swipe" .type "melee" .atk 90% .dmg 5 9 .crit 15%  .effect "Damage Marked Target" .launch 21 .target 12
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id kill_marked_target_fungal_bloat

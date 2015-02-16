@@ -1,0 +1,10 @@
+display: .size 2
+enemy_type: .id "0"
+stats: .hp 35 .def 10% .prot 51 .spd 1 .stun_resist 220% .poison_resist 220% .bleed_resist 220% .debuff_resist 220% .move_resist 220%
+personality: .prefskill 
+loot: .code "" .count 
+initiative: .number_of_turns_per_round 0
+monster_brain: .id cauldron_empty
+tag: .id "boss"
+captor_empty: .performing_monster_captor_base_class hag .captor_full_monster_class cauldron_full_B
+life_link: .base_class "hag"

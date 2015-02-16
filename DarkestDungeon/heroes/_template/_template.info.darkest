@@ -1,0 +1,33 @@
+resistances: .stun 0% .poison 0% .bleed 0% .disease 0%
+
+weapon:  .name "weapon_name_battered_longsword" .atk 0% .dmg 6 12 .crit 10% .spd 1
+
+armour:  .name "armour_name_rusty_hauberk" .def 15% .prot 2 .hp 30 .spd 0
+
+
+combat_skill:	.id "attack1"
+				.level 0 .type "melee" .atk 80% .dmg 0% .crit 0%
+				.launch 21 .target 12
+
+combat_skill:	.id "attack2"
+				.level 0 .type "melee" .atk 85% .dmg -67% .crit 0%
+				.launch 21 .target 12 .effect "Stun 1"
+
+combat_skill:	.id "attack3"
+				.level 1 .type "ranged" .atk 75% .dmg 0% .crit 10%
+				.launch 43 .target 1234
+				
+combat_skill:	.id "attack4"
+				.type "ranged" .atk 80% .dmg -25% .crit 10%
+				.launch 432	.target 234
+				
+combat_skill:	.id "move" .level 0
+				.type "move" .move 2 2
+				.launch 4321
+				
+
+camping_skill:	.id "encourage"
+camping_skill:	.id "bandage"
+camping_skill:	.id "gallows_humor"
+
+tag: .id "heavy"

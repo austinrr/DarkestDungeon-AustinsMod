@@ -1,0 +1,8 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 15 .def 22.5% .prot 0 .spd 3 .stun_resist 45% .poison_resist 70% .bleed_resist 145% .debuff_resist 70% .move_resist 55%
+skill: .id "cudgel" .type "melee" .atk 82.5% .dmg 3 8 .crit 5%  .launch 321 .target 12
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default

@@ -1,0 +1,10 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "beast"
+stats: .hp 34 .def 10% .prot 0 .spd 4 .stun_resist 70% .poison_resist 95% .bleed_resist 45% .debuff_resist 45% .move_resist 70%
+skill: .id "butcher_cut" .type "melee" .atk 90% .dmg 5 9 .crit 15%  .effect "Bleed 2" .launch 12 .target 123
+skill: .id "ball_and_chain" .type "ranged" .atk 90% .dmg 3 5 .crit 15%  .effect "Stun 3" .launch 1234 .target 34
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default

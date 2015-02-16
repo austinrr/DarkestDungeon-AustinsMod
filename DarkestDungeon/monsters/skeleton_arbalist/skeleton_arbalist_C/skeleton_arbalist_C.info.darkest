@@ -1,0 +1,9 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 30 .def 22.5% .prot 0 .spd 7 .stun_resist 55% .poison_resist 65% .bleed_resist 145% .debuff_resist 70% .move_resist 70%
+skill: .id "crossbow_shot" .type "ranged" .atk 102.5% .dmg 6 13 .crit 20%  .launch 43 .target 34
+skill: .id "bayonet_jab" .type "melee" .atk 92.5% .dmg 4 7 .crit 5%  .launch 21 .target 12
+personality: .prefskill 1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default
