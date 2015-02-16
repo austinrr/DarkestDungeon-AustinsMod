@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!**/.info
+!**/.info.darkest
+# etc...
+
+# ...even if they are in subdirectories
+!*/
