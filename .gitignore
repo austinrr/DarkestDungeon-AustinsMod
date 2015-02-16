@@ -2,8 +2,8 @@
 *
 
 # But not these files...
-!**/.info
-!**/.info.darkest
+!*.info
+!*.info.darkest
 # etc...
 
 # ...even if they are in subdirectories

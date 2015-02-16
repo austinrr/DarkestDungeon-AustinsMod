@@ -1,0 +1,9 @@
+display: .size 2
+enemy_type: .id "beast"
+stats: .hp 57 .def 22.5% .prot 0 .spd 5 .stun_resist 120% .poison_resist 145% .bleed_resist 120% .debuff_resist 95% .move_resist 120%
+skill: .id "weaken_prey" .type "melee" .atk 92.5% .dmg 4 7 .crit 10%  .effect "Weakening Curse 5" "Mark Target" .launch 1234 .target 12
+skill: .id "tentacle_devour" .type "melee" .atk 102.5% .dmg 6 13 .crit 15%  .effect "Damage Marked Target" .launch 1234 .target 12
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default

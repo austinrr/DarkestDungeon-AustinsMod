@@ -1,0 +1,11 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "eldritch"
+stats: .hp 14 .def 7.5% .prot 0 .spd 3 .stun_resist 25% .poison_resist 75% .bleed_resist 25% .debuff_resist 25% .move_resist 25%
+skill: .id "artillery_tag" .type "ranged" .atk 92.5% .dmg 1 1 .crit 10%  .effect "Mark Target" .launch 43 .target 12
+skill: .id "artillery_blight" .type "ranged" .atk 82.5% .dmg 1 1 .crit 10%  .effect "Blight 1" .launch 43 .target ~34
+skill: .id "escape_cloud" .type "melee" .atk 82.5% .dmg 1 1 .crit 10%  .effect "Weak Blight 1" .launch 21 .target ~12 .move 2 0
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default

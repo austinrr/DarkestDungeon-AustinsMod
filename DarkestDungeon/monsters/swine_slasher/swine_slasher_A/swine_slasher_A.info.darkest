@@ -1,0 +1,9 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "beast"
+stats: .hp 8 .def 12.5% .prot 0 .spd 5 .stun_resist 25% .poison_resist 25% .bleed_resist 25% .debuff_resist 25% .move_resist 25%
+skill: .id "hook_where_it_hurts" .type "melee" .atk 82.5% .dmg 3 7 .crit 20%  .launch 1234 .target 123 .move 1 0
+personality: .prefskill 1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default
