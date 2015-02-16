@@ -159,11 +159,11 @@ effect: .name "Heal Stress Chance 1" .curio_result_type "positive" .chance 67% .
 effect: .name "Heal Stress Chance 2" .curio_result_type "positive" .chance 67% .healstress 5	.on_hit true .on_miss false .queue true
 effect: .name "Heal Stress Chance 3" .curio_result_type "positive" .chance 67% .healstress 6	.on_hit true .on_miss false .queue true
 
-effect: .name "InspiringTune 1" .curio_result_type "positive" .chance 60% .healstress 3	.on_hit true .on_miss false .queue true
-effect: .name "InspiringTune 2" .curio_result_type "positive" .chance 70% .healstress 3	.on_hit true .on_miss false .queue true
-effect: .name "InspiringTune 3" .curio_result_type "positive" .chance 60% .healstress 4	.on_hit true .on_miss false .queue true
-effect: .name "InspiringTune 4" .curio_result_type "positive" .chance 70% .healstress 4	.on_hit true .on_miss false .queue true
-effect: .name "InspiringTune 5" .curio_result_type "positive" .chance 60% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "InspiringTune 1" .curio_result_type "positive" .chance 80% .healstress 1	.on_hit true .on_miss false .queue true
+effect: .name "InspiringTune 2" .curio_result_type "positive" .chance 80% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "InspiringTune 3" .curio_result_type "positive" .chance 80% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "InspiringTune 4" .curio_result_type "positive" .chance 80% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "InspiringTune 5" .curio_result_type "positive" .chance 80% .healstress 5	.on_hit true .on_miss false .queue true
 
 effect: .name "Cure 1" .curio_result_type "positive" .chance 70% .cure 1	.on_hit true .on_miss false
 effect: .name "Cure 2" .curio_result_type "positive" .chance 74% .cure 1	.on_hit true .on_miss false
@@ -351,11 +351,11 @@ effect: .name "TestBuffTeam" .curio_result_type "positive" .chance 100%  .buffte
 
 effect: .name "TestBuffOther" .curio_result_type "positive" .chance 100%  .buffother 1  .protection_rating_add 10% .defense_rating_add 100% .attack_rating_add 100% .speed_rating_add 10 .crit_chance_multiply 100%	.on_hit true .on_miss false
 
-effect: .name "Embolden Team 1" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 2% .crit_chance_add 1% 						.on_hit true .on_miss true .apply_once false .queue false
-effect: .name "Embolden Team 2" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 3% .crit_chance_add 2% .speed_rating_add 1	.on_hit true .on_miss true .apply_once false	.queue false
-effect: .name "Embolden Team 3" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 4% .crit_chance_add 3% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false	.queue false
-effect: .name "Embolden Team 4" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 5% .crit_chance_add 4% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false	.queue false
-effect: .name "Embolden Team 5" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 6% .crit_chance_add 5% .speed_rating_add 3	.on_hit true .on_miss true .apply_once false	.queue false
+effect: .name "Embolden Team 1" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 2% .crit_chance_add 1% .speed_rating_add 1	.on_hit true .on_miss true .apply_once false .queue false
+effect: .name "Embolden Team 2" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 3% .crit_chance_add 2% .speed_rating_add 1	.on_hit true .on_miss true .apply_once false .queue false
+effect: .name "Embolden Team 3" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 4% .crit_chance_add 3% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false .queue false
+effect: .name "Embolden Team 4" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 5% .crit_chance_add 4% .speed_rating_add 2	.on_hit true .on_miss true .apply_once false .queue false
+effect: .name "Embolden Team 5" .curio_result_type "positive" .chance 100%  .buffteam 1 .attack_rating_add 6% .crit_chance_add 5% .speed_rating_add 3	.on_hit true .on_miss true .apply_once false .queue false
 
 effect: .name "Theft 1"	.on_hit true .on_miss false
 
