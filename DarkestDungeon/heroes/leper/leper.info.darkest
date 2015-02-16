@@ -32,9 +32,9 @@ combat_skill: .id "revenge" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .lau
 combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
 combat_skill: .id "withstand" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 1" "Protect 1"
 combat_skill: .id "withstand" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 1" "Protect 2"
-combat_skill: .id "withstand" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 2" "Protect 3"
-combat_skill: .id "withstand" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 2" "Protect 4"
-combat_skill: .id "withstand" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 3" "Protect 5"
+combat_skill: .id "withstand" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 1" "Protect 3"
+combat_skill: .id "withstand" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 1" "Protect 4"
+combat_skill: .id "withstand" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "HealSelfStress 1" "Protect 5"
 combat_skill: .id "solemnity" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "LeperHealSelf 1" ""
 combat_skill: .id "solemnity" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "LeperHealSelf 2" ""
 combat_skill: .id "solemnity" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 12 .target   .effect "LeperHealSelf 3" ""
