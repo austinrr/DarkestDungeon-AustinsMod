@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
+	<Title>Austin&apos;s Mod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>1</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>23941</TargetBuild>
+	<Tags>
+		<Tags>Gameplay Tweaks</Tags>
+	</Tags>
+	<ItemDescription>
+	The goal of this mod is to reduce some of artifical difficulty imposed by inventory management and curve the difficulty with minor rules and character balances.
+
+	## Rules Changes
+	* Affliction/Virtue chance is now 50/50 chance from 75/25
+	* Stress reduction from killing blow is now 5 from 3
+	* Stress reduction from critical strike chance on companions is now 80% from 25%
+	* Stress damage at lower light levels is slightly lower
+	* Player crit chance at lower light levels now matches monster crit changes increases
+
+	## Heroes
+	Hellion
+	* slightly increased damage for all weapon upgrades
+
+	Grave Robber
+	* lunge accuracy increased by 5% at all levels
+	* blight damage from posion darts is increased to 2, 3, 4, 5, 6
+
+	Occultist
+	* Wyrd Reconstruction now has a minimum heal of 1, 1, 2, 2, 3
+
+	Highwayman
+	* Point Blank Shot now has accuracy increased by 5% at all levels
+
+	## Inventory
+	* Portrait stack increased to 6
+	* Bust stack increased to 8
+	* Crest stack incrased to 14
+	* Deed stack increased to 8
+	
+	* Trapezohedron stack increased to 3
+	* Pewrelic stack increased to 3
+	
+	* Holy Relic stack increased to 3
+	* Grain sack stack increased to 3
+
+	* Torch stack increased to 16
+	* Provision stack increased to 24
+
+	## Campaign
+	* Level 2 dungeons now accept resolve level 3 Heroes
+	* Level 4 dungeons now accept resolve level 5 Heroes
+	</ItemDescription>
+	<PublishedFileId>1422885729</PublishedFileId>
+</project>
+
