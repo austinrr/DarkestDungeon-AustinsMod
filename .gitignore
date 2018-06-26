@@ -2,10 +2,12 @@
 *
 
 # But not these files...
-!*.info
-!*.info.darkest
-!*/inventory/*
-!*effects.darkest
+!*/inventory/**
+!*/effects/*
+!*/heroes/**
+!*/shared/*
+!*/campaign/**
+
 
 # ...even if they are in subdirectories
 !*/
