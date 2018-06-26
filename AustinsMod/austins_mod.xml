@@ -17,53 +17,74 @@
 	<ItemDescription>
 	The goal of this mod is to reduce some of artifical difficulty imposed by inventory management and curve the difficulty with minor rules and character balances.
 
-	[h2]Rules Changes[/h2]
-	* Affliction/Virtue chance is now 50/50 chance from 75/25
-	* Stress reduction from killing blow is now 5 from 3
-	* Stress reduction chance on killing blow is now 80% from 50%
-	* Stress reduction from critical hit is now 5 from 3 
-	* Stress reduction chance for compansions on critical strike is now 80% from 25%
-	* Stress damage at lower light levels is slightly lower (-5 at all levels not 0)
-	* Player crit chance at lower light levels now matches monster crit changes increases [0, 1, 2, 3, 5]
+	[h1]Rules Changes[/h1]
+	[list]
+	[*] Affliction/Virtue chance is now 50/50 chance from 75/25
+	[*] Stress reduction from killing blow is now 5 from 3
+	[*] Stress reduction chance on killing blow is now 80% from 50%
+	[*] Stress reduction from critical hit is now 5 from 3 
+	[*] Stress reduction chance for compansions on critical strike is now 80% from 25%
+	[*] Stress damage at lower light levels is slightly lower (-5)
+	[*] Player crit chance at lower light levels now matches monster crit changes increases [0, 1, 2, 3, 5]
+	[/list]
 
-	[h2]Heroes[/h2]
-	[h4]Hellion[/h4]
-	* slightly increased damage for all weapon upgrades
+	[h1]Heroes[/h1]
 
-	[h4]Grave Robber[/h4]
-	* lunge accuracy increased by 5% at all levels
-	* blight damage from posion darts is increased to [2, 3, 4, 5, 6]
+	[b]Hellion[/b]
+	[list]
+	[*] slightly increased damage for all weapon upgrades
+	[/list]
 
-	[h4]Occultist[/h4]
-	* Wyrd Reconstruction now has a minimum heal of [1, 1, 2, 2, 3]
+	[b]Grave Robber[/b]
+	[list]
+	[*] lunge accuracy increased by 5% at all levels
+	[*] blight damage from posion darts is increased to [2, 3, 4, 5, 6]
+	[/list]
 
-	[h4]Highwayman[/h4]
-	* Point Blank Shot now has accuracy increased by 5% at all levels
+	[b]Occultist[/b]
+	[list]
+	[*] Wyrd Reconstruction now has a minimum heal of [1, 1, 2, 2, 3]
+	[/list]
 
-	[h4]HoundMaster[/h4]
-	* Hound&apos;s Harry now does slightly more bleed [1, 1, 2, 2, 3] -&gt; [1, 2, 3, 3, 4]
-	* Howl now has 100% chance to hit nut stress reduction was lowered from [2, 3, 4, 5, 6] -&gt; [1, 2, 3, 5, 5]
-	* Howl now also applies a stress reduction buff with values [-5%, -6.5%, -8%, -9.5%, -11%]
+	[b]Highwayman[/b]
+	[list]
+	[*] Point Blank Shot now has accuracy increased by 5% at all levels
+	[/list]
 
-	[h2]Inventory[/h2]
-	* Portrait stack increased to 6
-	* Bust stack increased to 8
-	* Crest stack incrased to 14
-	* Deed stack increased to 8
+	[b]HoundMaster[/b]
+	[list]
+	[*] Hound's Harry now does slightly more bleed [1, 1, 2, 2, 3] -> [1, 2, 3, 3, 4]
+	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] -> [1, 2, 3, 4, 5]
+	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
+	[/list]
+
+	[h1]Inventory[/h1]
+	[list]
+	[*] Portrait stack increased to 6
+	[*] Bust stack increased to 8
+	[*] Crest stack incrased to 14
+	[*] Deed stack increased to 8
+	[*] Trapezohedron stack increased to 3
+	[*] Pewrelic stack increased to 3
+	[*] Holy Relic stack increased to 3
+	[*] Grain sack stack increased to 3
+	[*] Torch stack increased to 16
+	[*] Provision stack increased to 24
+	[*] Firewood stack increased to 5
+	[/list]
+
+	[h1]Nomad Wagon[/h1]
+	[list]
+	[*] Nomad Wagon has a chance to sell Cimson Court and Ancestral trinkets at 0.5% and 0.35% respectfully
+	[/list]
+
+	[h1]Campaign[/h1]
+	[list]
+	[*] Level 2 dungeons now accept resolve level 3 Heroes
+	[*] Level 3 dungeons now accept resolve level 4 Heroes
+	[*] Level 4 dungeons now accept resolve level 5 Heroes
+	[/list]
 	
-	* Trapezohedron stack increased to 3
-	* Pewrelic stack increased to 3
-	
-	* Holy Relic stack increased to 3
-	* Grain sack stack increased to 3
-
-	* Torch stack increased to 16
-	* Provision stack increased to 24
-
-	[h2]Campaign[/h2]
-	* Level 2 dungeons now accept resolve level 3 Heroes
-	* Level 3 dungeons now accept resolve level 4 Heroes
-	* Level 4 dungeons now accept resolve level 5 Heroes
 	</ItemDescription>
 	<PublishedFileId>1422885729</PublishedFileId>
 </project>
