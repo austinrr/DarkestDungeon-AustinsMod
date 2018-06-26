@@ -1,8 +1,0 @@
-display: .size 2
-enemy_type: .id "unholy"
-stats: .hp 40 .def 0% .prot 0 .spd 0 .stun_resist 0% .poison_resist 0% .bleed_resist 0%
-skill: .id "attack1" .type "melee" .atk 75% .dmg 6 12 .crit 10%  .launch 21 .target 12
-personality: .prefskill -1
-loot: .code "A"
-initiative: .number_of_turns_per_round 1
-monster_brain: .id default

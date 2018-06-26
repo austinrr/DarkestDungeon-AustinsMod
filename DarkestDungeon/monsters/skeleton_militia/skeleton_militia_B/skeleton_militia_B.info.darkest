@@ -1,8 +1,0 @@
-display: .size 1
-enemy_type: .id "unholy"
-stats: .hp 14 .def 10% .prot 0 .spd 3 .stun_resist 45% .poison_resist 45% .bleed_resist 120% .debuff_resist 45% .move_resist 45%
-skill: .id "sword_strike" .type "melee" .atk 90% .dmg 4 11 .crit 15%  .launch 321 .target 123
-personality: .prefskill -1
-loot: .code "A" .count 1
-initiative: .number_of_turns_per_round 1
-monster_brain: .id default

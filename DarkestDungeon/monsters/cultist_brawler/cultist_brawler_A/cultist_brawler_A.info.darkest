@@ -1,8 +1,0 @@
-display: .size 1
-enemy_type: .id "man"
-stats: .hp 12 .def 2.5% .prot 0 .spd 5 .stun_resist 25% .poison_resist 25% .bleed_resist 25% .debuff_resist 25% .move_resist 25%
-skill: .id "brawler_claw" .type "melee" .atk 72.5% .dmg 2 4 .crit 15%  .effect "Minor Bleed 1" .launch 321 .target 12 .move 0 1
-personality: .prefskill -1
-loot: .code "A" .count 1
-initiative: .number_of_turns_per_round 1
-monster_brain: .id default

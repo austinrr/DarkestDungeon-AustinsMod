@@ -1,9 +1,0 @@
-display: .size 1
-enemy_type: .id "unholy"
-stats: .hp 34 .def 10% .prot 0 .spd 1 .stun_resist 57.5% .poison_resist 45% .bleed_resist 120% .debuff_resist 45% .move_resist 70%
-skill: .id "axe_strike" .type "melee" .atk 80% .dmg 4 7 .crit 10%  .launch 21 .target 12
-skill: .id "shield_bash" .type "melee" .atk 90% .dmg 3 5 .crit 10%  .effect "Stun 3" "Push 1C" .launch 21 .target 12
-personality: .prefskill -1
-loot: .code "A" .count 1
-initiative: .number_of_turns_per_round 1
-monster_brain: .id default
