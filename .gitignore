@@ -1,14 +1,16 @@
 # Ignore everything
-*
+#*
+AustinsMod/steam_workshop_uploader.log
 
 # But not these files...
-!*/inventory/**
-!*/effects/*
-!*/heroes/**
-!*/shared/**
-!*/campaign/**
-!*/austins_mod.xml
+#!*/inventory/**
+#!*/effects/*
+#!*/heroes/**
+#!*/shared/**
+#!*/campaign/**
+#!*/austins_mod.xml
 
 
 # ...even if they are in subdirectories
-!*/
+#!*/
+
