@@ -20,9 +20,11 @@
 	## Rules Changes
 	* Affliction/Virtue chance is now 50/50 chance from 75/25
 	* Stress reduction from killing blow is now 5 from 3
-	* Stress reduction from critical strike chance on companions is now 80% from 25%
-	* Stress damage at lower light levels is slightly lower
-	* Player crit chance at lower light levels now matches monster crit changes increases
+	* Stress reduction chance on killing blow is now 80% from 50%
+	* Stress reduction from critical hit is now 5 from 3 
+	* Stress reduction chance for compansions on critical strike is now 80% from 25%
+	* Stress damage at lower light levels is slightly lower (-5 at all levels not 0)
+	* Player crit chance at lower light levels now matches monster crit changes increases (0, 1, 2, 3, 5)
 
 	## Heroes
 	Hellion
@@ -37,6 +39,11 @@
 
 	Highwayman
 	* Point Blank Shot now has accuracy increased by 5% at all levels
+
+	HoundMaster
+	* Hound's Harry now does slightly more bleed [1, 1, 2, 2, 3] -> [1, 2, 3, 3, 4]
+	* Howl now has 100% chance to hit nut stress reduction was lowered from [2, 3, 4, 5, 6] -> [1, 2, 3, 5, 5]
+	* Howl now also applies a stress reduction buff with values [-5%, -6.5%, -8%, -9.5%, -11%]
 
 	## Inventory
 	* Portrait stack increased to 6
@@ -55,6 +62,7 @@
 
 	## Campaign
 	* Level 2 dungeons now accept resolve level 3 Heroes
+	* Level 3 dungeons now accept resolve level 4 Heroes
 	* Level 4 dungeons now accept resolve level 5 Heroes
 	</ItemDescription>
 	<PublishedFileId>1422885729</PublishedFileId>

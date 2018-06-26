@@ -4,7 +4,7 @@
             "comment": "This table restricts what level heroes can go on what level quest. ROWS are DIFFICULTY, COLs are QUEST LENGTH",
             "resolve_level_threshold_table": [
                 3,
-                4,
+                3,
                 4,
                 5,
                 5,

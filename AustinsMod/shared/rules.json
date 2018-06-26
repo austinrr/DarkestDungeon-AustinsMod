@@ -79,8 +79,8 @@
         4
     ],
     "base_virtue_history_WF": 4,
-    "affliction_base_onset_chance": 0.4,
-    "affliction_critical_success_chance": 0.6,
+    "affliction_base_onset_chance": 0.5,
+    "affliction_critical_success_chance": 0.5,
     "affliction_min_chance": 0.05,
     "affliction_max_chance": 0.99,
     "stress_affliction_resisted": 45.0,
@@ -334,7 +334,7 @@
                     "stress_chance_increase": 10.0,
                     "stress_damage_increase": 15.0,
                     "monster_attack_increase": 5.0,
-                    "monster_damage_increase": 5.0,
+                    "monster_damage_increase": 10.0,
                     "monster_crit_increase": 2.0,
                     "loot_increase_gold": 10.0,
                     "loot_increase_treasure_draws": 4.0,
@@ -353,7 +353,7 @@
                     "stress_chance_increase": 25.0,
                     "stress_damage_increase": 25.0,
                     "monster_attack_increase": 10.0,
-                    "monster_damage_increase": 10.0,
+                    "monster_damage_increase": 15.0,
                     "monster_crit_increase": 3.0,
                     "loot_increase_gold": 15.0,
                     "loot_increase_treasure_draws": 8.0,
@@ -373,7 +373,7 @@
                     "stress_chance_increase": 35.0,
                     "stress_damage_increase": 35.0,
                     "monster_attack_increase": 12.5,
-                    "monster_damage_increase": 20.0,
+                    "monster_damage_increase": 25.0,
                     "monster_crit_increase": 5.0,
                     "loot_increase_gold": 30.0,
                     "loot_increase_treasure_draws": 12.0,
@@ -381,7 +381,7 @@
                     "player_def_increase": 0.0,
                     "player_scouting_increase": 0.0,
                     "monsters_surprised_increase": 0.0,
-                    "heroes_surprised_increase": 35.0
+                    "heroes_surprised_increase": 40.0
                 }
             }
         ]
