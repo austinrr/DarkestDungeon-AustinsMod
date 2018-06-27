@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
-	<ItemDescriptionShort>Slight balance changes and Inventory Stack Sizes</ItemDescriptionShort>
+	<ItemDescriptionShort>Slight balance changes and inventory stack sizes increased</ItemDescriptionShort>
 	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
 	<Title>Austin&apos;s Mod</Title>
 	<Language>english</Language>
@@ -9,7 +9,7 @@
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>2</VersionMinor>
+	<VersionMinor>3</VersionMinor>
 	<TargetBuild>23941</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -32,13 +32,13 @@
 
 	[b]Hellion[/b]
 	[list]
-	[*] slightly increased damage for all weapon upgrades
+	[*] Slightly increased damage for all weapon upgrades
 	[/list]
 
 	[b]Grave Robber[/b]
 	[list]
-	[*] lunge accuracy increased by 5% at all levels
-	[*] blight damage from posion darts is increased to [2, 3, 4, 5, 6]
+	[*] Lunge accuracy increased by 5% at all levels
+	[*] Blight damage from posion darts is increased to [2, 3, 4, 5, 6]
 	[/list]
 
 	[b]Occultist[/b]
@@ -49,6 +49,11 @@
 	[b]Highwayman[/b]
 	[list]
 	[*] Point Blank Shot now has accuracy increased by 5% at all levels
+	[/list]
+
+	[b]Flagellant[/b]
+	[list]
+	[*] Exsanguinate now has accuracy increased by 5% at all levels
 	[/list]
 
 	[b]HoundMaster[/b]

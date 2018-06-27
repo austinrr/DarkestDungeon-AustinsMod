@@ -9,7 +9,7 @@
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>2</VersionMinor>
+	<VersionMinor>3</VersionMinor>
 	<TargetBuild>23941</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -71,6 +71,8 @@
 	[*] Torch stack increased to 16
 	[*] Provision stack increased to 24
 	[*] Firewood stack increased to 5
+	[*] The Blood stack increased to 9
+	[*] The Cure stack increased to 9
 	[/list]
 
 	[h1]Nomad Wagon[/h1]

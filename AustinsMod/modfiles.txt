@@ -4,7 +4,7 @@ heroes/hellion/hellion.info.darkest 7832
 heroes/highwayman/highwayman.info.darkest 8223
 heroes/houndmaster/houndmaster.info.darkest 8640
 heroes/occultist/occultist.info.darkest 8056
-shared/buffs/base.buffs.json 767574
+shared/buffs/base.buffs.json 767578
 town/nomad_wagon/nomad_wagon.building.json 1959
 effects/base.effects.darkest 225415
 inventory/base.currency.inventory.items.darkest 694
@@ -12,7 +12,7 @@ inventory/base.gem.inventory.items.darkest 1297
 inventory/base.quest_item.inventory.items.darkest 1098
 inventory/base.supply.inventory.items.darkest 1620
 shared/rules.json 17400
-austins_mod.xml 2961
-modfiles.txt 655
+austins_mod.xml 3043
+modfiles.txt 703
 preview_icon.png 172822
-project.xml 2972
+project.xml 3043
