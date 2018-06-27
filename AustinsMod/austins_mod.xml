@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
-	<ItemDescriptionShort/>
+	<ItemDescriptionShort>Slight balance changes and Inventory Stack Sizes</ItemDescriptionShort>
 	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
 	<Title>Austin&apos;s Mod</Title>
 	<Language>english</Language>
@@ -9,7 +9,7 @@
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>2</VersionMinor>
 	<TargetBuild>23941</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -53,8 +53,8 @@
 
 	[b]HoundMaster[/b]
 	[list]
-	[*] Hound's Harry now does slightly more bleed [1, 1, 2, 2, 3] -> [1, 2, 3, 3, 4]
-	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] -> [1, 2, 3, 4, 5]
+	[*] Hound&apos;s Harry now does slightly more bleed [1, 1, 2, 2, 3] -&gt; [1, 2, 3, 3, 4]
+	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] -&gt; [1, 2, 3, 4, 5]
 	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
 	[/list]
 
@@ -71,6 +71,8 @@
 	[*] Torch stack increased to 16
 	[*] Provision stack increased to 24
 	[*] Firewood stack increased to 5
+	[*] The Blood stack increased to 9
+	[*] The Cure stack increased to 9
 	[/list]
 
 	[h1]Nomad Wagon[/h1]
