@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
-	<ItemDescriptionShort>Slight balance changes and Inventory Stack Sizes</ItemDescriptionShort>
+	<ItemDescriptionShort>Slight balance changes and inventory stack sizes increased</ItemDescriptionShort>
 	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
 	<Title>Austin&apos;s Mod</Title>
 	<Language>english</Language>
@@ -9,7 +9,7 @@
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>3</VersionMinor>
+	<VersionMinor>4</VersionMinor>
 	<TargetBuild>23941</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -26,19 +26,14 @@
 	[*] Stress reduction chance for compansions on critical strike is now 80% from 25%
 	[*] Stress damage at lower light levels is slightly lower (-5)
 	[*] Player crit chance at lower light levels now matches monster crit changes increases [0, 1, 2, 3, 5]
+	[*] Max locked positive quirks increased from 3 to 5
 	[/list]
 
 	[h1]Heroes[/h1]
 
 	[b]Hellion[/b]
 	[list]
-	[*] slightly increased damage for all weapon upgrades
-	[/list]
-
-	[b]Grave Robber[/b]
-	[list]
-	[*] lunge accuracy increased by 5% at all levels
-	[*] blight damage from posion darts is increased to [2, 3, 4, 5, 6]
+	[*] Slightly increased damage for all weapon upgrades
 	[/list]
 
 	[b]Occultist[/b]
@@ -49,6 +44,11 @@
 	[b]Highwayman[/b]
 	[list]
 	[*] Point Blank Shot now has accuracy increased by 5% at all levels
+	[/list]
+
+	[b]Flagellant[/b]
+	[list]
+	[*] Exsanguinate now has accuracy increased by 5% at all levels
 	[/list]
 
 	[b]HoundMaster[/b]
@@ -69,6 +69,7 @@
 	[*] Holy Relic stack increased to 3
 	[*] Grain sack stack increased to 3
 	[*] Torch stack increased to 16
+	[*] Shovel stack increased to 6
 	[*] Provision stack increased to 24
 	[*] Firewood stack increased to 5
 	[*] The Blood stack increased to 9
@@ -82,9 +83,8 @@
 
 	[h1]Campaign[/h1]
 	[list]
-	[*] Level 2 dungeons now accept resolve level 3 Heroes
-	[*] Level 3 dungeons now accept resolve level 4 Heroes
-	[*] Level 4 dungeons now accept resolve level 5 Heroes
+	[*] Apprentice dungeons now accept resolve level 3 Heroes
+	[*] Veteran dungeons now accept resolve level 4 Heroes
 	[/list]
 	
 	</ItemDescription>

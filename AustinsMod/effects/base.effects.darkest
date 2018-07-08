@@ -978,10 +978,16 @@ effect: .name "HM Dmg Marked 5".target "performer" .chance 100%	.curio_result_ty
 
 //Hound's Harry
 effect: .name "Harry Bleed 1" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Harry Bleed 2" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Harry Bleed 3" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Harry Bleed 4" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Harry Bleed 5" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 2" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 3" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 4" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 5" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Harry Bleed 1 New" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 2 New" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 3 New" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 4 New" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Harry Bleed 5 New" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 //Target Whistle
 effect: .name "HM Mark Target"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
@@ -993,11 +999,17 @@ effect: .name "Hound Debuff 4" .target "target" .curio_result_type "negative" .c
 effect: .name "Hound Debuff 5" .target "target" .curio_result_type "negative" .chance 170% .combat_stat_buff 1  .protection_rating_add -30% 	.on_hit true .on_miss false
 
 // Cry Havoc
-effect: .name "Hound Howl 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 1	.on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
-effect: .name "Hound Howl 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 1" .target "target" .curio_result_type "positive" .chance 66% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 2" .target "target" .curio_result_type "positive" .chance 68% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 3" .target "target" .curio_result_type "positive" .chance 70% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 4" .target "target" .curio_result_type "positive" .chance 72% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 5" .target "target" .curio_result_type "positive" .chance 74% .healstress 6	.on_hit true .on_miss false .queue true
+
+effect: .name "Hound Howl 1 New" .target "target" .curio_result_type "positive" .chance 100% .healstress 1	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 2 New" .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 3 New" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 4 New" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Hound Howl 5 New" .target "target" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
 
 effect: .name "Hound Howl Buff 1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "HOUNDHowlStressResistance1" .on_hit true .on_miss false .queue true
 effect: .name "Hound Howl Buff 2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "HOUNDHowlStressResistance2" .on_hit true .on_miss false .queue true

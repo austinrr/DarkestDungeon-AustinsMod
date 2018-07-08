@@ -5,7 +5,7 @@
 	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
 	<Title>Austin&apos;s Mod</Title>
 	<Language>english</Language>
-	<UpdateDetails>Removed Grave Robber changes so there will not be any compatability issues with my Grave Robber mod.</UpdateDetails>
+	<UpdateDetails/>
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
@@ -26,6 +26,7 @@
 	[*] Stress reduction chance for compansions on critical strike is now 80% from 25%
 	[*] Stress damage at lower light levels is slightly lower (-5)
 	[*] Player crit chance at lower light levels now matches monster crit changes increases [0, 1, 2, 3, 5]
+	[*] Max locked positive quirks increased from 3 to 5
 	[/list]
 
 	[h1]Heroes[/h1]
