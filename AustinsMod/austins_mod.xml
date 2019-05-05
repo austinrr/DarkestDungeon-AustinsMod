@@ -39,11 +39,12 @@
 	[b]Grave Robber[/b]
 	[list]
 	[*] Shadow Fade +10 dodge duration increased from 4 rounds to 5
-	[*] Shadow Fade +% crit change increased from [+4%, +5%, +6%, +7%, +8%] to [+12%, +14%, +16%, +18%, +20%]
+	[*] Shadow Fade +% crit chance increased from [+4%, +5%, +6%, +7%, +8%] to [+12%, +14%, +16%, +18%, +20%]
 	[*] Poison Dart blight damage increased from [1, 2, 3, 4, 5] to [2, 3, 4, 5, 6]
 	[*] Poison Dart blight resist debuff now lasts 4 rounds to match the blight duration
-	[*] Poison Dart now has a chance [100%, 110%, 120%, 130%, 140%] to apply a +2 SPD buff to the target for 4 rounds
-	[*] Lunge accurace increased by 5% at all levels
+	[*] Lunge accuracy increased by 5% at all levels
+	[*] Toxic Trickery now has increased self heal from 1 to [1, 2, 3, 4, 5]
+	[*] Toxic Trickery can now be used twice per battle
 	[/list]
 
 	[b]Hellion[/b]
@@ -58,7 +59,7 @@
 
 	[b]HoundMaster[/b]
 	[list]
-	[*] Hound&apos;s Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
+	[*] Hound's Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
 	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] to [1, 2, 3, 4, 5]
 	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
 	[/list]

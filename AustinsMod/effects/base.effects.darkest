@@ -857,18 +857,18 @@ effect: .name "GR Blight Debuff 3" .target "target" .chance 120% .duration 4 .bu
 effect: .name "GR Blight Debuff 4" .target "target" .chance 130% .duration 4 .buff_ids blight_debuff_4 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "GR Blight Debuff 5" .target "target" .chance 140% .duration 4 .buff_ids blight_debuff_5 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "GR Speed Debuff 1" .target "target" .chance 100% .duration 4 .buff_ids SPD+2 .on_hit true .on_miss false .can_apply_on_death false
-effect: .name "GR Speed Debuff 2" .target "target" .chance 110% .duration 4 .buff_ids SPD+2 .on_hit true .on_miss false .can_apply_on_death false
-effect: .name "GR Speed Debuff 3" .target "target" .chance 120% .duration 4 .buff_ids SPD+2 .on_hit true .on_miss false .can_apply_on_death false
-effect: .name "GR Speed Debuff 4" .target "target" .chance 130% .duration 4 .buff_ids SPD+2 .on_hit true .on_miss false .can_apply_on_death false
-effect: .name "GR Speed Debuff 5" .target "target" .chance 140% .duration 4 .buff_ids SPD+2 .on_hit true .on_miss false .can_apply_on_death false
+effect: .name "GR Speed Debuff 1" .target "target" .chance 90% .duration 2 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .can_apply_on_death false .apply_once true
+effect: .name "GR Speed Debuff 2" .target "target" .chance 90% .duration 2 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .can_apply_on_death false .apply_once true
+effect: .name "GR Speed Debuff 3" .target "target" .chance 90% .duration 2 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .can_apply_on_death false .apply_once true
+effect: .name "GR Speed Debuff 4" .target "target" .chance 90% .duration 2 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .can_apply_on_death false .apply_once true
+effect: .name "GR Speed Debuff 5" .target "target" .chance 90% .duration 2 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .can_apply_on_death false .apply_once true
 
 //Toxin Trickery
-effect: .name "Shadow Blood 1" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 9%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 2" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 3" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 11%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 4" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
-effect: .name "Shadow Blood 5" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 1" .target "performer" .curio_result_type "positive" .cure 1 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 9%     .on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 2" .target "performer" .curio_result_type "positive" .cure 2 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 3" .target "performer" .curio_result_type "positive" .cure 3 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 11%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 4" .target "performer" .curio_result_type "positive" .cure 4 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "Shadow Blood 5" .target "performer" .curio_result_type "positive" .cure 5 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
 
 effect: .name "GR Self Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2  .on_hit true .on_miss false .queue true .apply_once true
 effect: .name "GR Self Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2  .on_hit true .on_miss false .queue true .apply_once true
