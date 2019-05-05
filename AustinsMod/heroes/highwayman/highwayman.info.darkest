@@ -1,10 +1,10 @@
 resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 40%
 crit: .effects "on_crit_speed"
-weapon: .name "highwayman_weapon_0" .atk 0% .dmg 5 10 .crit 6% .spd 5
-weapon: .name "highwayman_weapon_1" .atk 0% .dmg 6 12 .crit 7% .spd 5 .upgradeRequirementCode 0
-weapon: .name "highwayman_weapon_2" .atk 0% .dmg 7 13 .crit 8% .spd 6 .upgradeRequirementCode 1
-weapon: .name "highwayman_weapon_3" .atk 0% .dmg 8 15 .crit 9% .spd 6 .upgradeRequirementCode 2
-weapon: .name "highwayman_weapon_4" .atk 0% .dmg 9 16 .crit 10% .spd 7 .upgradeRequirementCode 3
+weapon: .name "highwayman_weapon_0" .atk 0% .dmg 5 10 .crit 5% .spd 5
+weapon: .name "highwayman_weapon_1" .atk 0% .dmg 6 12 .crit 6% .spd 5 .upgradeRequirementCode 0
+weapon: .name "highwayman_weapon_2" .atk 0% .dmg 7 13 .crit 7% .spd 6 .upgradeRequirementCode 1
+weapon: .name "highwayman_weapon_3" .atk 0% .dmg 8 15 .crit 8% .spd 6 .upgradeRequirementCode 2
+weapon: .name "highwayman_weapon_4" .atk 0% .dmg 9 16 .crit 9% .spd 7 .upgradeRequirementCode 3
 armour: .name "highwayman_armour_0" .def 10% .prot 0 .hp 23 .spd 0
 armour: .name "highwayman_armour_1" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
 armour: .name "highwayman_armour_2" .def 20% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
@@ -15,11 +15,11 @@ combat_skill: .id "wicked_slice" .level 1 .type "melee" .atk 90% .dmg 15% .crit 
 combat_skill: .id "wicked_slice" .level 2 .type "melee" .atk 95% .dmg 15% .crit 7% .launch 321 .target 12 .is_crit_valid True
 combat_skill: .id "wicked_slice" .level 3 .type "melee" .atk 100% .dmg 15% .crit 8% .launch 321 .target 12 .is_crit_valid True
 combat_skill: .id "wicked_slice" .level 4 .type "melee" .atk 105% .dmg 15% .crit 9% .launch 321 .target 12 .is_crit_valid True
-combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg -15% .crit 9% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 1" .generation_guaranteed true
-combat_skill: .id "pistol_shot" .level 1 .type "ranged" .atk 90% .dmg -15% .crit 10% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 2"
-combat_skill: .id "pistol_shot" .level 2 .type "ranged" .atk 95% .dmg -15% .crit 11% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 3"
-combat_skill: .id "pistol_shot" .level 3 .type "ranged" .atk 100% .dmg -15% .crit 12% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 4"
-combat_skill: .id "pistol_shot" .level 4 .type "ranged" .atk 105% .dmg -15% .crit 13% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 5"
+combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg -15% .crit 7.5% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 1" .generation_guaranteed true
+combat_skill: .id "pistol_shot" .level 1 .type "ranged" .atk 90% .dmg -15% .crit 8.5% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 2"
+combat_skill: .id "pistol_shot" .level 2 .type "ranged" .atk 95% .dmg -15% .crit 9.5% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 3"
+combat_skill: .id "pistol_shot" .level 3 .type "ranged" .atk 100% .dmg -15% .crit 10.5% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 4"
+combat_skill: .id "pistol_shot" .level 4 .type "ranged" .atk 105% .dmg -15% .crit 11.5% .launch 432 .target 234 .is_crit_valid True  .effect "HW Pistol Dmg Marked 5"
 combat_skill: .id "point_blank_shot" .level 0 .type "ranged" .atk 100% .dmg 50% .crit 5% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1A"
 combat_skill: .id "point_blank_shot" .level 1 .type "ranged" .atk 105% .dmg 50% .crit 6% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1B"
 combat_skill: .id "point_blank_shot" .level 2 .type "ranged" .atk 110% .dmg 50% .crit 7% .move 1 0 .launch 1 .target 1 .is_crit_valid True  .effect "Push 1C"
