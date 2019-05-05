@@ -2,15 +2,15 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort>Slight balance changes and inventory stack sizes increased</ItemDescriptionShort>
-	<ModDataPath>C:/Users/Austin Rhodes/Repositories/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
+	<ModDataPath>C:/Users/Austin/Repos/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
 	<Title>Austin&apos;s Mod</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
 	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
-	<VersionMajor>1</VersionMajor>
-	<VersionMinor>4</VersionMinor>
-	<TargetBuild>23941</TargetBuild>
+	<VersionMajor>2</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>24787</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
 	</Tags>
@@ -58,7 +58,7 @@
 
 	[b]HoundMaster[/b]
 	[list]
-	[*] Hound's Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
+	[*] Hound&apos;s Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
 	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] to [1, 2, 3, 4, 5]
 	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
 	[/list]

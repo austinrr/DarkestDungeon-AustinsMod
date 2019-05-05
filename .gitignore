@@ -1,6 +1,8 @@
 # Ignore everything
 #*
 AustinsMod/steam_workshop_uploader.log
+AustinsMod/project.xml
+AustinsMod/modfiles.txt
 
 # But not these files...
 #!*/inventory/**
