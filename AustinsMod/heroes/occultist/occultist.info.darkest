@@ -1,20 +1,20 @@
 resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 67% .trap 10%
 crit: .effects "on_crit_healdone"
-weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 7 .crit 7% .spd 6
-weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 8 .crit 8% .spd 6 .upgradeRequirementCode 0
-weapon: .name "occultist_weapon_2" .atk 0% .dmg 6 10 .crit 9% .spd 7 .upgradeRequirementCode 1
-weapon: .name "occultist_weapon_3" .atk 0% .dmg 6 11 .crit 10% .spd 7 .upgradeRequirementCode 2
-weapon: .name "occultist_weapon_4" .atk 0% .dmg 7 13 .crit 11% .spd 8 .upgradeRequirementCode 3
+weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 6
+weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 6 .upgradeRequirementCode 0
+weapon: .name "occultist_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 7 .upgradeRequirementCode 1
+weapon: .name "occultist_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 7 .upgradeRequirementCode 2
+weapon: .name "occultist_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 8 .upgradeRequirementCode 3
 armour: .name "occultist_armour_0" .def 10% .prot 0 .hp 19 .spd 0
 armour: .name "occultist_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
 armour: .name "occultist_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
 armour: .name "occultist_armour_3" .def 25% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
 armour: .name "occultist_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
-combat_skill: .id "bloodlet" .level 0 .type "melee" .atk 80% .dmg 0% .crit 10% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 1"
-combat_skill: .id "bloodlet" .level 1 .type "melee" .atk 85% .dmg 0% .crit 11% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 2"
-combat_skill: .id "bloodlet" .level 2 .type "melee" .atk 90% .dmg 0% .crit 12% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 3"
-combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 95% .dmg 0% .crit 13% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 4"
-combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 100% .dmg 0% .crit 14% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 5"
+combat_skill: .id "bloodlet" .level 0 .type "melee" .atk 80% .dmg 0% .crit 9% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 1"
+combat_skill: .id "bloodlet" .level 1 .type "melee" .atk 85% .dmg 0% .crit 10% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 2"
+combat_skill: .id "bloodlet" .level 2 .type "melee" .atk 90% .dmg 0% .crit 11% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 3"
+combat_skill: .id "bloodlet" .level 3 .type "melee" .atk 95% .dmg 0% .crit 12% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 4"
+combat_skill: .id "bloodlet" .level 4 .type "melee" .atk 100% .dmg 0% .crit 13% .launch 123 .target 123 .is_crit_valid True  .effect "Eldritch Killer 5"
 combat_skill: .id "abyssal_artillery" .level 0 .type "ranged" .atk 85% .dmg -33% .crit 0% .launch 34 .target ~34 .is_crit_valid True  .effect "Abyssal Killer 1"
 combat_skill: .id "abyssal_artillery" .level 1 .type "ranged" .atk 90% .dmg -33% .crit 1% .launch 34 .target ~34 .is_crit_valid True  .effect "Abyssal Killer 2"
 combat_skill: .id "abyssal_artillery" .level 2 .type "ranged" .atk 95% .dmg -33% .crit 2% .launch 34 .target ~34 .is_crit_valid True  .effect "Abyssal Killer 3"
@@ -36,11 +36,11 @@ combat_skill: .id "disruptive_curse" .level 1 .type "ranged" .atk 100% .dmg -90%
 combat_skill: .id "disruptive_curse" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 7% .launch 1234 .target 1234 .is_crit_valid True  .effect "Occ Vulnerability Curse 3" "Mark Target" .is_stall_invalidating false
 combat_skill: .id "disruptive_curse" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 8% .launch 1234 .target 1234 .is_crit_valid True  .effect "Occ Vulnerability Curse 4" "Mark Target" .is_stall_invalidating false
 combat_skill: .id "disruptive_curse" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 9% .launch 1234 .target 1234 .is_crit_valid True  .effect "Occ Vulnerability Curse 5" "Mark Target" .is_stall_invalidating false
-combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 10% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 1" "Darkness 1"
-combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 11% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 2" "Darkness 1"
-combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 12% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 3" "Darkness 1"
-combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 13% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 4" "Darkness 1"
-combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 14% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 5" "Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 9% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 1" "Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 10% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 2" "Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 11% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 3" "Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 12% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 4" "Darkness 1"
+combat_skill: .id "hands_from_abyss" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 13% .launch 12 .target 123 .is_crit_valid True  .effect "Abyssal Stun 5" "Darkness 1"
 combat_skill: .id "daemons_pull" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 5% .launch 234 .target 34 .is_crit_valid True  .effect "Pull 2A" "clear_corpses"
 combat_skill: .id "daemons_pull" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 6% .launch 234 .target 34 .is_crit_valid True  .effect "Pull 2B" "clear_corpses"
 combat_skill: .id "daemons_pull" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 7% .launch 234 .target 34 .is_crit_valid True  .effect "Pull 2C" "clear_corpses"
