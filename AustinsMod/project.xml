@@ -28,7 +28,23 @@
 	[*] Player crit chance at lower light levels now matches monster crit changes increases (light) [+0, +1, +2, +3, +5] (dark)
 	[/list]
 
+	[h1]Trinket Changes[/h1]
+	[b]Sharpened Letter Opener Trinket[/b]
+	[list]
+	[*] Now gives +30% damage vs blighted enemies, no longer gives +25% damage to melee skills
+	[*] Now gives +10% accuracy vs blighted enemies, no longer gives +10% accuracy to melee skills
+	[/list]
+
 	[h1]Heroes[/h1]
+	[b]Grave Robber[/b]
+	[list]
+	[*] Shadow Fade +10 dodge duration increased from 4 rounds to 5
+	[*] Shadow Fade +% crit change increased from [+4%, +5%, +6%, +7%, +8%] to [+12%, +14%, +16%, +18%, +20%]
+	[*] Poison Dart blight damage increased from [1, 2, 3, 4, 5] to [2, 3, 4, 5, 6]
+	[*] Poison Dart blight resist debuff now lasts 4 rounds to match the blight duration
+	[*] Poison Dart now has a chance [100%, 110%, 120%, 130%, 140%] to apply a +2 SPD buff to the target for 4 rounds
+	[*] Lunge accurace increased by 5% at all levels
+	[/list]
 
 	[b]Hellion[/b]
 	[list]
