@@ -24,7 +24,7 @@
     "player_crit": {
         "relief_chance": 1.0,
         "stress_relief": 5,
-        "companion_relief_chance": 0.8,
+        "companion_relief_chance": 0.50,
         "companion_stress_relief": 3
     },
     "playerCritBarkChance": 0.75,
@@ -49,7 +49,7 @@
         "hallway_per_tile_stress_damage_chance_backing_up": 0.55
     },
     "killing_blow_relief_chance": 0.8,
-    "killing_blow_stress_relief": 3.0,
+    "killing_blow_stress_relief": 5.0,
     "effectiveDifficultyMin": 0.0,
     "effectiveDifficultyMax": 6.0,
     "effectiveDifficultyDungeonStartingStress": [

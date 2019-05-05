@@ -15,7 +15,7 @@
 		<Tags>Gameplay Tweaks</Tags>
 	</Tags>
 	<ItemDescription>
-	The goal of this mod is to reduce some of artifical difficulty imposed by inventory management and curve the difficulty with minor rules and character balances.
+	The goal of this mod is to reduce some of artificial difficulty imposed by inventory management and curve the difficulty with minor rules and character balances.
 
 	[h1]Rules Changes[/h1]
 	[list]
@@ -23,7 +23,7 @@
 	[*] Stress reduction from killing blow is now 5 from 3
 	[*] Stress reduction chance on killing blow is now 80% from 50%
 	[*] Stress reduction from critical hit is now 5 from 3 
-	[*] Stress reduction chance for compansions on critical strike is now 80% from 25%
+	[*] Stress reduction chance for companions on critical strike is now 50% from 25%
 	[*] Stress damage at lower light levels is slightly lower (-5)
 	[*] Player crit chance at lower light levels now matches monster crit changes increases [0, 1, 2, 3, 5]
 	[*] Max locked positive quirks increased from 3 to 5
@@ -36,14 +36,21 @@
 	[*] Slightly increased damage for all weapon upgrades
 	[/list]
 
-	[b]Occultist[/b]
-	[list]
-	[*] Wyrd Reconstruction now has a minimum heal of [1, 1, 2, 2, 3]
-	[/list]
-
 	[b]Highwayman[/b]
 	[list]
 	[*] Point Blank Shot now has accuracy increased by 5% at all levels
+	[/list]
+
+	[b]HoundMaster[/b]
+	[list]
+	[*] Hound's Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
+	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] to [1, 2, 3, 4, 5]
+	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
+	[/list]
+
+	[b]Occultist[/b]
+	[list]
+	[*] Wyrd Reconstruction now has a minimum heal of [1, 1, 2, 2, 3]
 	[/list]
 
 	[b]Flagellant[/b]
@@ -51,18 +58,11 @@
 	[*] Exsanguinate now has accuracy increased by 5% at all levels
 	[/list]
 
-	[b]HoundMaster[/b]
-	[list]
-	[*] Hound&apos;s Harry now does slightly more bleed [1, 1, 2, 2, 3] -&gt; [1, 2, 3, 3, 4]
-	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] -&gt; [1, 2, 3, 4, 5]
-	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
-	[/list]
-
 	[h1]Inventory[/h1]
 	[list]
 	[*] Portrait stack increased to 6
 	[*] Bust stack increased to 8
-	[*] Crest stack incrased to 14
+	[*] Crest stack increased to 14
 	[*] Deed stack increased to 8
 	[*] Trapezohedron stack increased to 3
 	[*] Pewrelic stack increased to 3
@@ -78,7 +78,7 @@
 
 	[h1]Nomad Wagon[/h1]
 	[list]
-	[*] Nomad Wagon has a chance to sell Cimson Court and Ancestral trinkets at 0.5% and 0.35% respectfully
+	[*] Nomad Wagon has a chance to sell Crimson Court and Ancestral trinkets at 0.5% and 0.35% respectfully
 	[/list]
 
 	[h1]Campaign[/h1]
