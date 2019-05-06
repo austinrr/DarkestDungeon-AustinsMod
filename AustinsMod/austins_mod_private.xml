@@ -3,10 +3,10 @@
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort>Slight balance changes and inventory stack sizes increased</ItemDescriptionShort>
 	<ModDataPath>C:/Users/Austin/Repos/DarkestDungeon-AustinsMod/AustinsMod/</ModDataPath>
-	<Title>Austin&apos;s Mod</Title>
+	<Title>Experimental Austin&apos;s Mod</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>public</Visibility>
+	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>2</VersionMajor>
 	<VersionMinor>1</VersionMinor>
@@ -103,6 +103,6 @@
 	[*] Veteran dungeons now accept resolve level 4 Heroes
 	[/list]
 	</ItemDescription>
-	<PublishedFileId>1422885729</PublishedFileId>
+	<PublishedFileId>1734046776</PublishedFileId>
 </project>
 
