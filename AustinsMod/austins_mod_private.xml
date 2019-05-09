@@ -9,7 +9,7 @@
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>2</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>4</VersionMinor>
 	<TargetBuild>24787</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -26,6 +26,13 @@
 	[*] Stress reduction chance for companions on critical strike is now 50% from 25%
 	[*] Stress damage at lower light levels is slightly lower (-5)
 	[*] Player crit chance at lower light levels now matches monster crit changes increases (light) [+0, +1, +2, +3, +5] (dark)
+	[*] Chance of a negative quirk on successfully mission has been lowered
+	[*] The max number of locked positive quirks has been increased to 5
+	[/list]
+
+	[h1]Quirks Changes[/h1]
+	[list]
+	[*] Fated (chance to convert a miss into hit) change raised from 10% to 20%
 	[/list]
 
 	[h1]Trinket Changes[/h1]
@@ -60,8 +67,9 @@
 	[b]HoundMaster[/b]
 	[list]
 	[*] Hound&apos;s Harry now does slightly more bleed from [1, 1, 2, 2, 3] to [1, 2, 3, 3, 4]
-	[*] Howl now has 100% chance to hit but stress reduction was lowered from [2, 3, 4, 5, 6] to [1, 2, 3, 4, 5]
+	[*] Howl now has 100% chance to hit, raised from [66, 68, 70, 72, 74] but stress reduction was lowered from [2, 3, 4, 5, 6] to [1, 2, 3, 4, 5]
 	[*] Howl now also applies a stress reduction buff with values [-5%, -5%, -6%, -6%, -7%]
+	[*] Howl can now be used from pos [4,3,2] was [4,3]
 	[/list]
 
 	[b]Occultist[/b]
@@ -76,10 +84,10 @@
 
 	[h1]Inventory[/h1]
 	[list]
-	[*] Portrait stack increased to 6
-	[*] Bust stack increased to 8
-	[*] Crest stack increased to 14
-	[*] Deed stack increased to 8
+	[*] Portrait stack increased to 3 to 8
+	[*] Bust stack increased to 6 to 12
+	[*] Crest stack increased to 12 to 20
+	[*] Deed stack increased to 6 to 12
 	[*] Trapezohedron stack increased to 3
 	[*] Pewrelic stack increased to 3
 	[*] Holy Relic stack increased to 3
@@ -94,7 +102,15 @@
 
 	[h1]Nomad Wagon[/h1]
 	[list]
-	[*] Nomad Wagon has a chance to sell Crimson Court and Ancestral trinkets at 1.5% and 0.5% respectfully
+	[*] Nomad Wagon has a chance to sell Crimson Court and Ancestral trinkets at 1.0% and 0.5% respectfully
+	[*] Nomad Wagon trinket count can now be upgraded a 5th time for 64 crests allowing 16 trinkets to appear
+	[*] Nomad Wagon discount upgrade can now be purchased 2 more times for 56 and 64 crests respectfully
+	[/list]
+
+	[h1]Stage Coach[/h1]
+	[list]
+	[*] Number of recruits has been increased at all levels by 1 except 2 recruits still appear initially
+	[*] Roster Size has been increased by 4 at all levels
 	[/list]
 
 	[h1]Campaign[/h1]

@@ -1045,9 +1045,9 @@ effect: .name "Lick Wounds 5" .target "performer" .curio_result_type "positive" 
 //Shared Houndmaster Effects
 effect: .name "Hound Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Hound Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Hound Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Hound Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Hound Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hound Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 //NOT CURRENTLY REFERENCED
 effect: .name "Whistle Target 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids skill_whistle_1 .on_hit true .on_miss false

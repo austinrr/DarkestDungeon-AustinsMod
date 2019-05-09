@@ -21,7 +21,8 @@
 						{ "amount" : 4,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "a"  },
 						{ "amount" : 6,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "b"  },
 						{ "amount" : 8,     "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "c"  },
-						{ "amount" : 12,    "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "d"  }
+						{ "amount" : 12,    "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "d"  },
+						{ "amount" : 16,    "upgrade_tree_id" :  "nomad_wagon.numitems", "upgrade_requirement_code" : "e"  }
 					],
 
 					"trinket_cost_discount_upgrades" : 
@@ -30,7 +31,9 @@
 						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "b" },
 						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "c" },
 						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "d" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "e" }
+						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "e" },
+						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "f" },
+						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "g" }
 					],
 					
 					"trinket_sell_value_discount_upgrades" :
@@ -45,7 +48,7 @@
 						{ "rarity" : "uncommon", "chance" : 4.0 },
 						{ "rarity" : "rare", "chance" : 2.0 },
 						{ "rarity" : "very_rare", "chance" : 1.0 },
-						{ "rarity" : "crimson_court", "chance" : 1.5 },
+						{ "rarity" : "crimson_court", "chance" : 1.0 },
                         { "rarity" : "ancestral", "chance" : 0.5}
 					]
 				}
