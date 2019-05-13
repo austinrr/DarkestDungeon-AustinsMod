@@ -9,7 +9,7 @@
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>2</VersionMajor>
-	<VersionMinor>4</VersionMinor>
+	<VersionMinor>5</VersionMinor>
 	<TargetBuild>24787</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -47,11 +47,11 @@
 	[list]
 	[*] Shadow Fade +10 dodge duration increased from 4 rounds to 5
 	[*] Shadow Fade +% crit chance increased from [+4%, +5%, +6%, +7%, +8%] to [+12%, +14%, +16%, +18%, +20%]
-	[*] Poison Dart blight damage increased from [1, 2, 3, 4, 5] to [2, 3, 4, 5, 6]
+	[*] Poison Dart blight damage increased from [2, 3, 3, 3, 4] to [2, 3, 3, 4, 5]
 	[*] Poison Dart blight resist debuff now lasts 4 rounds to match the blight duration
 	[*] Lunge accuracy increased by 5% at all levels
-	[*] Toxic Trickery now has increased self heal of 1 at all levels
-	[*] Toxic Trickery no longer has a once per battle limit
+	[*] Toxic Trickery now has a self heal of 1 at all levels
+	[*] Increased weapon weapon damage for final upgrade from [7 - 14] to [8 - 14]
 	[/list]
 
 	[b]Hellion[/b]
@@ -115,8 +115,7 @@
 
 	[h1]Campaign[/h1]
 	[list]
-	[*] Apprentice dungeons now accept resolve level 3 Heroes
-	[*] Veteran dungeons now accept resolve level 4 Heroes
+	[*] Resolve level restrictions completely removed
 	[/list]
 	</ItemDescription>
 	<PublishedFileId>1734046776</PublishedFileId>
