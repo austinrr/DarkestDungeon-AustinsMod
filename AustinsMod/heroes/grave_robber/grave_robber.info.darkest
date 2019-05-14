@@ -1,10 +1,10 @@
 resistances: .stun 20% .poison 50% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 67% .trap 50%
 crit: .effects "on_crit_def"
-weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 8
-weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 8 .upgradeRequirementCode 0
-weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 8% .spd 9 .upgradeRequirementCode 1
-weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 7 13 .crit 9% .spd 9 .upgradeRequirementCode 2
-weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 8 14 .crit 10% .spd 10 .upgradeRequirementCode 3
+weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 8 .crit 7% .spd 8
+weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 10 .crit 8% .spd 8 .upgradeRequirementCode 0
+weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 9% .spd 9 .upgradeRequirementCode 1
+weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 7 13 .crit 10% .spd 9 .upgradeRequirementCode 2
+weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 8 14 .crit 11% .spd 10 .upgradeRequirementCode 3
 armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 20 .spd 0
 armour: .name "grave_robber_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
 armour: .name "grave_robber_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1

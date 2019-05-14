@@ -9,7 +9,7 @@
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>2</VersionMajor>
-	<VersionMinor>5</VersionMinor>
+	<VersionMinor>7</VersionMinor>
 	<TargetBuild>24787</TargetBuild>
 	<Tags>
 		<Tags>Gameplay Tweaks</Tags>
@@ -35,16 +35,10 @@
 	[*] Fated (chance to convert a miss into hit) change raised from 10% to 20%
 	[/list]
 
-	[h1]Trinket Changes[/h1]
-	[b]Sharpened Letter Opener Trinket[/b]
-	[list]
-	[*] Now gives +30% damage vs blighted enemies, no longer gives +25% damage to melee skills
-	[*] Now gives +10% accuracy vs blighted enemies, no longer gives +10% accuracy to melee skills
-	[/list]
-
 	[h1]Heroes[/h1]
 	[b]Grave Robber[/b]
 	[list]
+	[*] Chance to crit increased by 1% at all weapon levels
 	[*] Shadow Fade +10 dodge duration increased from 4 rounds to 5
 	[*] Shadow Fade +% crit chance increased from [+4%, +5%, +6%, +7%, +8%] to [+12%, +14%, +16%, +18%, +20%]
 	[*] Poison Dart blight damage increased from [2, 3, 3, 3, 4] to [2, 3, 3, 4, 5]
@@ -113,10 +107,21 @@
 	[*] Roster Size has been increased by 4 at all levels
 	[/list]
 
+	[h1]Sanitarium[/h1]
+	[list]
+	[*] Positive quirk lock costs reduced by 500 at all levels
+	[*] Negative quirk removal costs reduced by 250 at all levels
+	[*] Removal of locked negative quirks reduced by 500 at all levels
+	[/list]
+
 	[h1]Campaign[/h1]
 	[list]
 	[*] Resolve level restrictions completely removed
 	[/list]
+
+	[h1]Starting Roster[/h1]
+	[*] Reynauld now starts with quirk 'Hard Skinned'
+	[*] Dismas now starts with quirk 'Deadly'
 	</ItemDescription>
 	<PublishedFileId>1734046776</PublishedFileId>
 </project>
